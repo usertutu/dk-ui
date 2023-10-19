@@ -75,6 +75,10 @@
           {
             name: 'checkbox 多选框',
             path: '/DkCheckbox'
+          },
+          {
+            name: 'avatar 头像',
+            path: '/DkAvatar'
           }
         ]
       })
