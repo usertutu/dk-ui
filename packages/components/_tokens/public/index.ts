@@ -122,3 +122,5 @@ export const DK_JUSTIFY = [
   'stretch',
   'unset'
 ] as const
+
+export const DK_SHAPE = ['circle', 'square'] as const

@@ -1,0 +1,28 @@
+@use '../mixins/configuration/var-avatar.scss' as *;
+@use '../mixins/mixin.scss' as *;
+
+
+.#{$namespace}-avatar {
+    margin: 0;
+    padding: 0;
+    color: var(--avatar-color);
+    font-size: 14px;
+    line-height: 30px;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    background:var(--avatar-background);
+    border: 1px solid transparent;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+}
+
+.#{$namespace}-avatar-square {
+  border-radius: 6px
+}

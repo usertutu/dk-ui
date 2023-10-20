@@ -1,0 +1,7 @@
+@use '../mixin.scss' as *;
+
+.#{$namespace}-avatar {
+
+  --avatar-background:rgba(0, 0, 0, 0.25);
+  --avatar-color:#fff;
+}

@@ -149,3 +149,12 @@ export type DkPlusPosition = 'top' | 'right' | 'bottom' | 'left';
  */
 // export type dkPlusAlertType = dkPlusBasicType & 'error';
 export type dkPlusAlertType = 'success' | 'info' | 'warning' | 'error';
+
+/**
+ * @name dkPlusShapeType
+ * @Time 2023年07月07日
+ * @param { string }  [circle] 圆
+ * @param { string }  [square] 方
+ * @description 指定头像的形状
+ */
+export type dkPlusShapeType = 'circle' | 'square'
