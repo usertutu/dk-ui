@@ -1,5 +1,5 @@
-import checkbox from './src/checkbox.vue'
+import avatar from './src/avatar.vue'
 import { withInstall } from '../_utils/index'
-export const DkCheckbox = withInstall(checkbox)
-export type dkCheckboxInterface = InstanceType<typeof checkbox>
-export default DkCheckbox
+export const DkAvatar = withInstall(avatar)
+export type dkAvatarInterface = InstanceType<typeof avatar>
+export default DkAvatar
